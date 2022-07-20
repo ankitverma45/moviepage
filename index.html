@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="swiper-bundle.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="nav container">
+      <span href="" class="logo">Movie<span class="log">Dev</span></span>
+
+      <div class="search-box">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="search" id="search-input" placeholder="Search movie">
+      </div>
+      <div class="sign">
+        <button class="sig-btn">Sign in </button>
+      </div>
+
+      <div class="navbar">
+        <a href="#home" class="nav-link nav-active">
+          <i class="fa-solid fa-house"></i>
+          <span class="nav-title">Home</span>
+        </a>
+        <a href="#populars" class="nav-link">
+          <i class="fa-brands fa-hotjar"></i>
+          <span class="nav-title">Trending</span>
+        </a>
+        <a href="#movies" class="nav-link">
+          <i class="fa-solid fa-compass"></i>
+          <span class="nav-title">Movies</span>
+        </a>
+        <a href="#categary" class="nav-link">
+          <i class="fa-solid fa-clapperboard"></i>
+          <span class="nav-title">Categary</span>
+        </a>
+        <a href="#live" class="nav-link">
+          <i class="fa-solid fa-clock"></i>
+          <span class="nav-title">Live Show</span>
+        </a>
+      </div>
+    </div>
+    
+  </header>
+  <div class="sear container"></div>
+  <div class="all">
+    <section class="home container" id="home">
+      <a href=""> <img src="spid1.jpg" alt="" class="home-img"></a>
+      <div class="home-text">
+        <h1 class="home-title">Spider Man</h1>
+        <p>Releasing 24 May 2002</p>
+        <a href="#" class="watch-btn watch-btn2">
+          <i class="fa-solid fa-play"></i>
+          <span >Watch the trailer</span>
+        </a>
+      </div>
+    </section>
+    <div class="heading container" id="populars">
+      <h2 class="heading-title" >Popular Movies</h2>
+      <div class="swiper-head">
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+
+    <div class="popular-content swiper container">
+      <div class="swiper-wrapper"></div>
+    </div>
+    <section class="container" id="movies">
+      <div class="heading heading2 container">
+        <h2 class="heading-title head-t">Movies</h2>
+      </div>
+      <div class="full-container"></div>
+
+    </section>
+
+    <div class="load-more container">
+      <a href="" class="load-btn">LOAD MORE</a>
+    </div>
+
+    <section class="category container" id="categary">
+      <div class="tag-category">Category</div>
+      <div class="full-container full-container2">
+        <div class="card-category">
+          <img src="image/action.jpg" alt="" class="img-cate">
+          <h3 class="title-cate">Action</h3>
+        </div>
+        <div class="card-category">
+          <img src="image/comady.jpg" alt="" class="img-cate">
+          <h3 class="title-cate">Comady</h3>
+        </div>
+        <div class="card-category">
+          <img src="image/animated.jpg" alt="" class="img-cate">
+          <h3 class="title-cate">Animated</h3>
+        </div>
+        <div class="card-category">
+          <img src="image/advanture.jpg" alt="" class="img-cate">
+          <h3 class="title-cate">Advanture</h3>
+        </div>
+        <div class="card-category">
+          <img src="image/horror.webp" alt="" class="img-cate">
+          <h3 class="title-cate">Horror</h3>
+        </div>
+        <div class="card-category">
+          <img src="image/crime.jpg" alt="" class="img-cate">
+          <h3 class="title-cate">Crime</h3>
+        </div>
+        <div class="card-category">
+          <img src="image/thriller.jpeg" alt="" class="img-cate">
+          <h3 class="title-cate">Thriller</h3>
+        </div>
+        <div class="card-category">
+          <img src="image/marvel.jpg" alt="" class="img-cate">
+          <h3 class="title-cate">Marvel</h3>
+        </div>
+
+      </div>
+      <section class="category container" id="live">
+        <div class="tag-category">Live Tv Shows</div>
+        <div class="full-container full-container3">
+          <div class="live-card">
+            <div class="card-heade">
+              <img src="image/kapilsharma.jpg" alt="" class="card-imge">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.6M viewers</div>
+              <div class="play">
+                <i class="fa-regular fa-circle-play"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title"> The Kapil Sharma Show</h3>
+            </div>
+          </div>
+          <div class="live-card">
+            <div class="card-heade">
+              <img src="image/khatrashow.jpg" alt="" class="card-imge">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">305K viewers</div>
+              <div class="play">
+                <i class="fa-regular fa-circle-play"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">The Khatra khatra Show</h3>
+            </div>
+          </div>
+          <div class="live-card">
+            <div class="card-heade">
+              <img src="image/coffee.webp" alt="" class="card-imge">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">671K viewers</div>
+              <div class="play">
+                <i class="fa-regular fa-circle-play"></i>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Coffee With Karan</h3>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <footer class="footer container">
+        <div class="line-1">
+          <span class="logo logo1">Ank<span class="log">it</span></span>
+          <div class="brand">
+            <a href="#" class="facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" class="twiter">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#" class="whats">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="#" class="insta">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <div class="line2">
+          <div class="pri">
+            <a href="#"><span>Privace</span></a>
+            <a href="#"><span>Policy</span></a>
+          </div>
+          <div class="point">
+            <a href=""><span>Feedback</span></a>
+            <a href=""><span>About Us</span></a>
+            <a href=""><span>Blog</span></a>
+            <a href=""><span>Contact</span></a>
+          </div>
+        </div>
+        <div class="line3"></div>
+        <div class="line4">Copyright2022.All Rights Reserved</div>
+      </footer>
+
+  </div>
+
+
+
+
+
+  <script src="swiper-bundle.min.js"></script>
+  <script src="style.js"></script>
+
+</body>
+
+</html>
