@@ -100,7 +100,7 @@ header {
     position: absolute;
 }
 .sign-pages{
-    background-color: rgb(74, 77, 80);
+    background-color: rgb(29, 31, 33);
     width: 400px;
     display: flex;
     flex-direction: column;
@@ -1878,6 +1878,9 @@ html::-webkit-scrollbar-thumb {
     .login{
         column-gap: 20px;
         margin-left: 5px;
+    }
+    .login button{
+        width: 106px;
     }
 }
 
