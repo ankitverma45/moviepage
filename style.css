@@ -95,7 +95,8 @@ header {
 .img-back{
     height: 300px;
 }
-.logo1{
+.logo2{
+    margin-left: 10px;
     position: absolute;
 }
 .sign-pages{
@@ -1298,10 +1299,10 @@ html::-webkit-scrollbar-thumb {
     .img-back{
         height: 300px;
     }
-    .logo1{
+    .logo2{
         position: absolute;
         font-size: 1rem;
-        margin-left: 20px;
+        margin-left: 10px;
     }
     .sign-pages{
         width: 400px;
@@ -2129,5 +2130,23 @@ html::-webkit-scrollbar-thumb {
 
     footer {
         height: 300px;
+    }
+    .sign-pages{
+        margin-left: 10px;
+        width: 200px;
+    }
+    .sign-page{
+        width: 200px;
+    }
+    .sign-pages input{
+        margin-top: 20px;
+        width: 170px;
+    }
+    .login{
+        column-gap: 20px;
+        margin-left: 5px;
+    }
+    .login button{
+        width: 70px;
     }
 }
