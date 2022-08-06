@@ -1624,16 +1624,15 @@ html::-webkit-scrollbar-thumb {
     footer {
         height: 350px;
     }
+
     .sign-page{
-        margin-top: 100px;
-        height: 250px;
+        width: 440px;
     }
     .back{
        display: none;
     }
     .sign-pages{
-        margin-left: 10px;
-        width: 460px;
+        width: 440px;
     }
     .wel{
         margin-top: 10px;
@@ -1644,7 +1643,7 @@ html::-webkit-scrollbar-thumb {
     }
     .login{
         column-gap: 20px;
-        margin-left: 5px;
+        margin: auto;
     }
     .login button{
         width: 100px;
@@ -1730,10 +1729,6 @@ html::-webkit-scrollbar-thumb {
         height: 300px;
     }
 
-    .logo1 {
-        font-size: 1rem;
-    }
-
     .brand a {
         font-size: 12px;
     }
@@ -1759,7 +1754,22 @@ html::-webkit-scrollbar-thumb {
     }
 
     footer {
-        height: 340px;
+        height: 300px;
+    }
+    .sign-pages{
+        margin-left: 10px;
+        width: 380px;
+    }
+    .sign-page{
+        width: 380px;
+    }
+    .sign-pages input{
+        margin-top: 20px;
+        width: 340px;
+    }
+    .login{
+        column-gap: 20px;
+        margin: auto;
     }
 }
 
@@ -1852,6 +1862,21 @@ html::-webkit-scrollbar-thumb {
 
     footer {
         height: 320px;
+    }
+    .sign-pages{
+        margin-left: 10px;
+        width: 320px;
+    }
+    .sign-page{
+        width: 320px;
+    }
+    .sign-pages input{
+        margin-top: 20px;
+        width: 280px;
+    }
+    .login{
+        column-gap: 20px;
+        margin-left: 5px;
     }
 }
 
@@ -1965,6 +1990,21 @@ html::-webkit-scrollbar-thumb {
 
     footer {
         height: 300px;
+    }
+    .sign-pages{
+        margin-left: 10px;
+        width: 280px;
+    }
+    .sign-page{
+        width: 280px;
+    }
+    .sign-pages input{
+        margin-top: 20px;
+        width: 240px;
+    }
+    .login{
+        column-gap: 20px;
+        margin-left: 5px;
     }
 }
 
