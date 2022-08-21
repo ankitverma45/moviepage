@@ -8,6 +8,11 @@
     padding: 0;
 }
 
+html {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -80,51 +85,61 @@ header {
     font-weight: 300;
     background-color: rgb(190, 31, 31);
 }
-.sign-page{
+
+.sign-page {
     display: flex;
     width: 650px;
     margin: auto;
     margin-top: 100px;
     height: 300px;
 }
-.back{
+
+.back {
     width: 250px;
     display: flex;
     flex-direction: column;
 }
-.img-back{
+
+.img-back {
     height: 300px;
 }
-.logo2{
+
+.logo2 {
     margin-left: 10px;
     position: absolute;
 }
-.sign-pages{
+
+.sign-pages {
     background-color: rgb(0, 0, 0);
     width: 400px;
     display: flex;
     flex-direction: column;
     padding: 10px;
 }
-.wel{
+
+.wel {
     margin-top: 30px;
 }
-.sign-pages input{
+
+.sign-pages input {
     margin-top: 20px;
     width: 350px;
     outline: none;
 }
-.sign-pages a{
+
+.sign-pages a {
     margin-top: 5px;
     font-size: 0.7rem;
     color: rgb(168, 168, 255);
 }
-.login{
+
+.login {
     margin: auto;
     display: flex;
     column-gap: 50px;
 }
-.login button{
+
+.login button {
     width: 100px;
 }
 
@@ -321,6 +336,7 @@ header {
     color: rgb(115, 113, 245);
     transform: scale(0.9);
 }
+
 .movie-card .rating {
     top: 5px;
     column-gap: 1px;
@@ -1195,8 +1211,8 @@ html::-webkit-scrollbar-thumb {
         display: flex;
         column-gap: 70px;
     }
-    
-    #search-input{
+
+    #search-input {
         width: 1000px;
     }
 
@@ -1290,34 +1306,41 @@ html::-webkit-scrollbar-thumb {
         width: 580px;
         height: 300px;
     }
-    .sign-page{
+
+    .sign-page {
         width: 500px;
     }
-    .back{
+
+    .back {
         width: 150px;
     }
-    .img-back{
+
+    .img-back {
         height: 300px;
     }
-    .logo2{
+
+    .logo2 {
         position: absolute;
         font-size: 1rem;
         margin-left: 10px;
     }
-    .sign-pages{
+
+    .sign-pages {
         width: 400px;
     }
-    .sign-pages input{
+
+    .sign-pages input {
         margin-top: 20px;
         width: 300px;
         outline: none;
     }
-    .login{
+
+    .login {
         display: flex;
         column-gap: 20px;
         margin-left: 40px;
     }
-   
+
 }
 
 @media (max-width :615px) {
@@ -1408,9 +1431,9 @@ html::-webkit-scrollbar-thumb {
         z-index: 1;
         height: 300px;
         width: 440px;
-        background-image: linear-gradient(to bottom, 
-        transparent,
-        rgba(0, 0, 0, 0.9) 30%);
+        background-image: linear-gradient(to bottom,
+                transparent,
+                rgba(0, 0, 0, 0.9) 30%);
 
     }
 
@@ -1626,28 +1649,34 @@ html::-webkit-scrollbar-thumb {
         height: 350px;
     }
 
-    .sign-page{
+    .sign-page {
         width: 440px;
     }
-    .back{
-       display: none;
+
+    .back {
+        display: none;
     }
-    .sign-pages{
+
+    .sign-pages {
         border-radius: 10px;
         width: 440px;
     }
-    .wel{
+
+    .wel {
         margin-top: 10px;
     }
-    .sign-pages input{
+
+    .sign-pages input {
         margin-top: 20px;
         width: 400px;
     }
-    .login{
+
+    .login {
         column-gap: 20px;
         margin: auto;
     }
-    .login button{
+
+    .login button {
         width: 100px;
     }
 }
@@ -1670,20 +1699,24 @@ html::-webkit-scrollbar-thumb {
     .img-container {
         height: 300px;
     }
+
     .name {
         margin-top: -20px;
         text-align: center;
         font-size: 1.2rem;
     }
-    .number{
+
+    .number {
         font-size: 1rem;
         padding: 2px 2px;
     }
-    .ray{
+
+    .ray {
         font-size: 1rem;
         padding: 2px 2px;
     }
-    .uaa{
+
+    .uaa {
         font-size: 1rem;
         padding: 2px 2px;
     }
@@ -1758,18 +1791,22 @@ html::-webkit-scrollbar-thumb {
     footer {
         height: 300px;
     }
-    .sign-pages{
+
+    .sign-pages {
         margin-left: 10px;
         width: 380px;
     }
-    .sign-page{
+
+    .sign-page {
         width: 380px;
     }
-    .sign-pages input{
+
+    .sign-pages input {
         margin-top: 20px;
         width: 340px;
     }
-    .login{
+
+    .login {
         column-gap: 20px;
         margin: auto;
     }
@@ -1783,6 +1820,7 @@ html::-webkit-scrollbar-thumb {
     .container {
         width: 320px;
     }
+
     .text-load {
         height: 300px;
         width: 320px;
@@ -1791,6 +1829,7 @@ html::-webkit-scrollbar-thumb {
     .img-container {
         height: 300px;
     }
+
     .img2 {
         width: 145px;
         height: 220px;
@@ -1865,28 +1904,34 @@ html::-webkit-scrollbar-thumb {
     footer {
         height: 320px;
     }
-    .sign-pages{
+
+    .sign-pages {
         background-color: rgb(0, 0, 0);
         margin-left: 10px;
         width: 320px;
     }
-    .body1{
+
+    .body1 {
         background-color: rgb(117, 117, 117);
     }
-    .sign-page{
+
+    .sign-page {
         height: 250px;
         width: 320px;
     }
-    .sign-pages input{
+
+    .sign-pages input {
         margin-top: 20px;
         width: 280px;
     }
-    .login{
+
+    .login {
         margin-top: 20px;
         column-gap: 20px;
         margin-left: 5px;
     }
-    .login button{
+
+    .login button {
         width: 126px;
     }
 }
@@ -1899,6 +1944,7 @@ html::-webkit-scrollbar-thumb {
     .container {
         width: 280px;
     }
+
     .text-load {
         height: 290px;
         width: 280px;
@@ -1907,23 +1953,28 @@ html::-webkit-scrollbar-thumb {
     .img-container {
         height: 300px;
     }
+
     .name {
         margin-top: -20px;
         text-align: center;
         font-size: 1rem;
     }
-    .real{
+
+    .real {
         font-size: 0.8rem;
     }
-    .number{
-        font-size: 0.8rem;
-        padding: 2px 2px;
-    }
-    .ray{
+
+    .number {
         font-size: 0.8rem;
         padding: 2px 2px;
     }
-    .uaa{
+
+    .ray {
+        font-size: 0.8rem;
+        padding: 2px 2px;
+    }
+
+    .uaa {
         font-size: 0.8rem;
         padding: 2px 2px;
     }
@@ -2002,23 +2053,28 @@ html::-webkit-scrollbar-thumb {
     footer {
         height: 300px;
     }
-    .sign-pages{
+
+    .sign-pages {
         border-radius: 10px;
         margin-left: 10px;
         width: 280px;
     }
-    .sign-page{
+
+    .sign-page {
         width: 280px;
     }
-    .sign-pages input{
+
+    .sign-pages input {
         margin-top: 20px;
         width: 240px;
     }
-    .login{
+
+    .login {
         column-gap: 20px;
         margin-left: 5px;
     }
-    .login button{
+
+    .login button {
         width: 105px;
     }
 }
@@ -2031,6 +2087,7 @@ html::-webkit-scrollbar-thumb {
     .container {
         width: 200px;
     }
+
     .text-load {
         height: 250px;
         width: 200px;
@@ -2039,26 +2096,32 @@ html::-webkit-scrollbar-thumb {
     .img-container {
         height: 300px;
     }
+
     .name {
         margin-top: -20px;
         text-align: center;
         font-size: 0.5rem;
     }
-    .real{
+
+    .real {
         font-size: 0.5rem;
     }
-    .number{
+
+    .number {
         font-size: 0.2rem;
         padding: 2px 2px;
     }
-    .ray{
+
+    .ray {
         font-size: 0.2rem;
         padding: 2px 2px;
     }
-    .uaa{
+
+    .uaa {
         font-size: 0.2rem;
         padding: 2px 2px;
     }
+
     .img2 {
         width: 200px;
         height: 290px;
@@ -2145,22 +2208,27 @@ html::-webkit-scrollbar-thumb {
     footer {
         height: 300px;
     }
-    .sign-pages{
+
+    .sign-pages {
         margin-left: 10px;
         width: 200px;
     }
-    .sign-page{
+
+    .sign-page {
         width: 200px;
     }
-    .sign-pages input{
+
+    .sign-pages input {
         margin-top: 20px;
         width: 170px;
     }
-    .login{
+
+    .login {
         column-gap: 20px;
         margin-left: 5px;
     }
-    .login button{
-    width: 70px;
+
+    .login button {
+        width: 70px;
     }
 }
